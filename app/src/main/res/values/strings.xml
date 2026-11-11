@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Stashdroid</string>
+    <string name="access_title">Allow access to your files</string>
+    <string name="access_body">Stashdroid needs all-files access to read your photos, videos, downloads and documents for the backup.</string>
+    <string name="access_button">Open settings</string>
+    <string name="source_title">What to back up</string>
+    <string name="source_label">Folder</string>
+    <string name="repo_title">Where to keep the backup</string>
+    <string name="not_chosen">No folder chosen</string>
+    <string name="choose_folder">Choose folder</string>
+    <string name="back_up_now">Back up now</string>
+    <string name="snapshots_title">Backups</string>
+    <string name="no_snapshots">No backups in this folder yet.</string>
+    <string name="no_backup_here">The chosen folder holds no backup.</string>
+    <plurals name="file_count">
+        <item quantity="one">%1$d file</item>
+        <item quantity="other">%1$d files</item>
+    </plurals>
+    <string name="restore_title">Restore</string>
+    <string name="restore_body">Restores the chosen backup into an empty folder.</string>
+    <string name="restore_button">Restore</string>
+    <string name="restore_not_empty">The restore folder is not empty. Choose or create an empty folder.</string>
+    <string name="verify_button">Compare with originals</string>
+    <string name="verify_body">Checks that every file in the restore folder matches %1$s. Files added or changed since the backup show as differences.</string>
+    <string name="channel_jobs">Backup and restore</string>
+    <string name="job_starting">Starting…</string>
+    <string name="job_percent">%1$d%%</string>
+    <string name="job_backup">Backup</string>
+    <string name="job_restore">Restore</string>
+    <string name="job_verify">Comparison</string>
+    <string name="job_failed">Stopped: %1$s</string>
+    <string name="job_cancelled">Cancelled</string>
+    <string name="progress_files">%1$d of %2$d files</string>
+    <string name="progress_bytes">%1$s of %2$s</string>
+    <string name="progress_chunks">%1$d new chunks, %2$d already stored</string>
+    <string name="backup_done">Backed up %1$d files, %2$s.</string>
+    <string name="backup_done_chunks">%1$d new chunks, %2$d already stored, %3$d files unchanged since the last backup.</string>
+    <string name="restore_done">Restored %1$d files, %2$s.</string>
+    <plurals name="problem_count">
+        <item quantity="one">%1$d file had a problem:</item>
+        <item quantity="other">%1$d files had a problem:</item>
+    </plurals>
+    <string name="verify_all_match">All %1$d files match the originals.</string>
+    <string name="verify_some_differ">%1$d files match. %2$d differences:</string>
+    <string name="verify_missing">Not restored: %1$s</string>
+    <string name="verify_extra">Not in the original: %1$s</string>
+    <string name="verify_different">Different content: %1$s</string>
+    <string name="verify_unreadable">Could not read %1$s: %2$s</string>
+</resources>
