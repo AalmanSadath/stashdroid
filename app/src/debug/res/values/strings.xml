@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Tells the debug build apart from the release one in the launcher. -->
+    <string name="app_name">Stashdroid Debug</string>
+</resources>
